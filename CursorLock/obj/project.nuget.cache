@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "J756d0qaGD+g7JeYjB1iDBYKk/+KG+/qBxVxfzSE2REBZ4sWuTrrxbB3GbQlRnR7L+nLfQcnSmnGjI+xOBRzXQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\CursorLock\\CursorLock\\CursorLock.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ricar\\.nuget\\packages\\noninvasivekeyboardhooklibrary.core\\2.1.0\\noninvasivekeyboardhooklibrary.core.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
