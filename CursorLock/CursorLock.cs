@@ -55,7 +55,7 @@ namespace CursorLock
                 {
                     int x = Cursor.Position.X;
                     Cursor.Position = new Point(x, y);
-                    Thread.Sleep(1);
+                    Thread.Sleep((int)1); // Velocidade abaixo de 1milisegundo afeta a posição (X) do mouse
                 }
             }
             else
