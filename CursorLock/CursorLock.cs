@@ -1,13 +1,13 @@
 using NonInvasiveKeyboardHookLibrary;
 namespace CursorLock
 {
-    public partial class Form1 : Form
+    public partial class CursorLock : Form
     {
         int i = 1;
         bool ativado = false;
         int y;
         private KeyboardHookManager keyboardHookManager;
-        public Form1()
+        public CursorLock()
         {
             InitializeComponent();
             keyboardHookManager = new KeyboardHookManager();
@@ -33,7 +33,7 @@ namespace CursorLock
             this.MouseClick -= selecionarTrava;
             Point posicao = PointToClient(Cursor.Position);
             y = posicao.Y;
-            MessageBox.Show(y.ToString());
+            //MessageBox.Show(y.ToString());
             this.FormBorderStyle = FormBorderStyle.Fixed3D;
             button1.Visible = true;
             this.WindowState = FormWindowState.Normal;
@@ -55,7 +55,7 @@ namespace CursorLock
                 {
                     int x = Cursor.Position.X;
                     Cursor.Position = new Point(x, y);
-                    Thread.Sleep(20);
+                    Thread.Sleep(1);
                 }
             }
             else

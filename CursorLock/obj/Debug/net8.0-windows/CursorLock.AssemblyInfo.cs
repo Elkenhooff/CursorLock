@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CursorLock")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+562132e52759e6311b0b6ce224c4dc23d742b323")]
 [assembly: System.Reflection.AssemblyProductAttribute("CursorLock")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CursorLock")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

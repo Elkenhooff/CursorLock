@@ -1,6 +1,6 @@
 ﻿namespace CursorLock
 {
-    partial class Form1
+    partial class CursorLock
     {
         /// <summary>
         ///  Required designer variable.
